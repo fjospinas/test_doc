@@ -93,6 +93,6 @@ En la Tabla 1 se pueden apreciar los resultados de las pruebas llevadas a cabo.
 
 ### Apendice IV. Inserción de ecuaciones de Latex.
 
-<img src="https://render.githubusercontent.com/render/math?math=%5Csum_(i%3D1)%5En">
+<img src="https://render.githubusercontent.com/render/math?math=\begin{equation}\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}\end{equation}">
 
 ### Apendice V. Inserción de enlaces.
