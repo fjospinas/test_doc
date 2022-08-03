@@ -97,6 +97,6 @@ La inserción de contenido de Latex en los markdown de github se toca en detalle
 
 A continuación se añade el ejemplo de una ecuación el Latex.
 
-https://render.githubusercontent.com/render/math?math=\begin{equation}\sum_{n=0}^\infty\frac{1}{2^n}\end{equation}
+<img src="https://render.githubusercontent.com/render/math?math=\begin{equation}\sum_{n=0}^\infty\frac{1}{2^n}\end{equation}">
 
 ### Apendice V. Inserción de enlaces.
