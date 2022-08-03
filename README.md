@@ -1,13 +1,18 @@
 # Template discoveries 
+Este template surge como una necesidad de estandarizar los entreganbles producidos por los procesos de discoveries. Este obedece mas al formato de la presentación ya que el contenido de cada sección se describe en [este documento](https://docs.google.com/document/d/1TgFzPLYT_qFdj7ggjiRgjtoAoNQH9LI-CQ9OSRLbCh0/edit?usp=sharing).
+
+Adicional a esto, al final se añaden apendices con algunas ayudas relacionadas con markdown que han sido recurrentes en procesos de discoveries previos.
 
 ## Tabla de contenido
 
 1. [ Glosario ](#glosario)
 2. [ Caso de negocio ](#caso_negocio)
-3. [ Hipótesis ](#hipotesis)
-4. [ Validación de la hipótesis](#validacion_hipotests)
-5. [ Conclusiones y propuestas](#conclusiones)
-6. [ Referencias ](#referencias)
+3. [ Formulación del problema](#formulacion)
+4. [ Hipótesis ](#hipotesis)
+5. [ Priorización de hipótesis](#priorizacion)
+6. [ Validación de la hipótesis](#validacion_hipotests)
+7. [ Conclusiones y propuestas](#conclusiones)
+8. [ Referencias ](#referencias)
  
 <a name="glosario"></a>
 ## 1. Glosario.
@@ -25,32 +30,27 @@
 #### 2.3.2 Objetivos secundarios
 ### 2.4. Datos disponibles
 ### 2.5. Scope
-## 3.Hipótesis
-## 4. Validación de la hipótesis
-### 4.1. Preprocesamiento de datos
-#### 4.1.1. Cuasi transposición de datos
-#### 4.1.2. Imputación de datos.
-#### 4.1.3. Escalamiento de datos.
-### 4.2. Análisis de datos
-#### 4.2.1. Primera aproximación - pre discovery (Iteración 0)
-#### 4.2.1. Primeros modelos con AutoML (Iteración 1)
-#### 4.2.1. Foco en modelos de Adaboost y ExtraTrees (Iteración 2)
-#### 4.2.1. Integración de modelos de AutoPytorch (Iteración 3)
-#### 4.2.2. Feature selection mediante Lasso y PCA - correlaciones lineales  (Iteración 4)
-##### 4.2.2.1. Regresión lasso.
-##### 4.2.2.2. Análisis de componentes principales PCA
-#### 4.2.3 Feature selection mediante información mutua - correlaciones no lineales (Iteración 5)
-#### 4.2.4 Integración final (Iteración 6)
-##### 4.2.4.1 Modelo AdaBoost
-##### 4.2.4.2 Modelo LGBMLearner
-### 4.3. Entregable.
-## 4.4. Visualización de outputs de los notebooks.
+<a name="formulacion"></a>
+## 3. Formulación del problema
+<a name="hipotesis"></a>
+## 4. Hipótesis
+<a name="priorizacion"></a>
+## 5. Priorización de hipótesis
+<a name="validacion_hipotests"></a>
+## 6. Validación de la hipótesis
+### 6.1. Preprocesamiento de datos
+### 6.2. Análisis de datos
+#### 6.2.1. Prueba modelo 1 (Iteración 0)
+#### 6.2.2. Prueba modelo 2 (Iteración 1)
+#### 6.2.1. Prueba modelo 3 (Iteración 2)
+### 6.3. Entregable.
+## 6.4. Visualización de outputs de los notebooks.
 <a name="conclusiones"></a>
-## 5. Conclusiones y propuestas
-### 5.1. Conclusiones 
-### 5.2. Propuestas
+## 7. Conclusiones y propuestas
+### 7.1. Conclusiones 
+### 7.2. Propuestas
 <a name="referencias"></a>
-## 6. Referencias (Ejemplo)
+## 8. Referencias (Ejemplo)
 
 - [Documentación del módulo de AutoScikitLearn](https://automl.github.io/auto-sklearn/master/)
 - [Documentación del módulo de AutoPytorch](https://www.automl.org/automl/autopytorch/)
@@ -75,10 +75,12 @@ Las variables se listan a continuación:
 
 ### Apendice II. Inserción y referenciación de imágenes.
 
+Los pronosticos realizados con prophet conservan la estacionalidad observada en los datos de entrenamiento, tal como se observa en la Figura 1.
+
 <p align="center">
-  <img src="images/lasso_feature_sel.png" width=500>
+  <img src="images/prophet.png" width=500>
 </p>
-<h5 align="center">Figura 1. Logo de mercadolibre</h5>
+<h5 align="center">Figura 1. Mejores modelos AdaBoost - Feature selection</h5>
 
 ### Apendice III. Inserción y referenciación de tablas.
 
