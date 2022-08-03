@@ -52,6 +52,13 @@
 <a name="referencias"></a>
 ## 6. Referencias (Ejemplo)
 
+- [Documentación del módulo de AutoScikitLearn](https://automl.github.io/auto-sklearn/master/)
+- [Documentación del módulo de AutoPytorch](https://www.automl.org/automl/autopytorch/)
+- [Principal Component Analysis, Second Edition](https://link.springer.com/book/10.1007/b98835)
+- [Mutual Information between Discrete and Continuous Data Sets](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3929353/)
+- [Documentación scalers ScikitLearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)
+- [Documentacion del módulo impyute](https://impyute.readthedocs.io/en/master/)
+
 ## Apéndices
 
 ### Apendice I. Creación de listas (Ejemplo)
@@ -85,5 +92,7 @@ En la Tabla 1 se pueden apreciar los resultados de las pruebas llevadas a cabo.
 <h5 align="center"> Tabla 1. Resultados de pruebas</h5>
 
 ### Apendice IV. Inserción de ecuaciones de Latex.
+
+<img src="https://render.githubusercontent.com/render/math?math=%5Csum_(i%3D1)%5En">
 
 ### Apendice V. Inserción de enlaces.
