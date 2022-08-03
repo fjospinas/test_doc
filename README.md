@@ -44,7 +44,7 @@ Adicional a esto, al final se añaden apendices con algunas ayudas relacionadas 
 #### 6.2.2. Prueba modelo 2 (Iteración 1)
 #### 6.2.1. Prueba modelo 3 (Iteración 2)
 ### 6.3. Entregable.
-## 6.4. Visualización de outputs de los notebooks.
+### 6.4. Visualización de outputs de los notebooks.
 <a name="conclusiones"></a>
 ## 7. Conclusiones y propuestas
 ### 7.1. Conclusiones 
