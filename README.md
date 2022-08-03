@@ -59,7 +59,9 @@
 - [Documentación scalers ScikitLearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)
 - [Documentacion del módulo impyute](https://impyute.readthedocs.io/en/master/)
 
-## Apéndices
+## Apéndices.
+
+A continuación se añaden algunas funcionalidades de markdown usadas previamente en otros discoveries.
 
 ### Apendice I. Creación de listas (Ejemplo)
 
@@ -100,3 +102,9 @@ A continuación se añade el ejemplo de una ecuación el Latex.
 <img src="https://render.githubusercontent.com/render/math?math=\begin{equation}\sum_{n=0}^\infty\frac{1}{2^n}\end{equation}">
 
 ### Apendice V. Inserción de enlaces.
+
+Ejemplo de enlace a [Mercadolibre Colombia](https://www.mercadolibre.com.co/)
+
+### Apendice VI. Documentación oficial de markdown de github.
+
+[Documentación de syntaxis para markdown proporcionada por Github](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
