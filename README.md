@@ -93,6 +93,10 @@ En la Tabla 1 se pueden apreciar los resultados de las pruebas llevadas a cabo.
 
 ### Apendice IV. Inserción de ecuaciones de Latex.
 
-<img src="https://render.githubusercontent.com/render/math?math=\begin{equation}\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}\end{equation}">
+La inserción de contenido de Latex en los markdown de github se toca en detalle en el siguiente gist.
+
+A continuación se añade el ejemplo de una ecuación el Latex.
+
+https://render.githubusercontent.com/render/math?math=\begin{equation}\sum_{n=0}^\infty\frac{1}{2^n}\end{equation}
 
 ### Apendice V. Inserción de enlaces.
